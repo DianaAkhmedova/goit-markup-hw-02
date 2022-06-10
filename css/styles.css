@@ -1,0 +1,37 @@
+/* Fonts */
+--main-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+
+/* Colors */
+--main-dark-color: #000000;
+--main-light-color: #FFFFFF;
+--main-color: #757575;
+--secondary-color: #212121;
+--accent-color: #2196F3;
+
+--main-background-color: #2F303A;
+--secondary-background-color: #F5F4FA;
+
+body {
+    font-family: var(--main-font-family);
+    font-size: ;
+    font-weight: ;
+    font-style: ;
+    color: ;
+}
+
+/* Common Styles */
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+}
