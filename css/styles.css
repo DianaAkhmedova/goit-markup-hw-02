@@ -1,23 +1,25 @@
+:root {
 /* Fonts */
---main-font-family: 'Roboto', sans-serif;
---secondary-font-family: 'Raleway', sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
 
-/* Colors */
---main-dark-color: #000000;
---main-light-color: #FFFFFF;
---main-color: #757575;
---secondary-color: #212121;
---accent-color: #2196F3;
+    /* Colors */
+    --main-dark-color: #000000;
+    --main-light-color: #FFFFFF;
+    --main-color: #757575;
+    --secondary-color: #212121;
+    --accent-color: #2196F3;
 
---main-background-color: #2F303A;
---secondary-background-color: #F5F4FA;
+    --main-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+}
 
 body {
     font-family: var(--main-font-family);
-    font-size: ;
-    font-weight: ;
-    font-style: ;
-    color: ;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-color);
 }
 
 /* Common Styles */
@@ -34,4 +36,36 @@ body {
     cursor: pointer;
     font-family: inherit;
     color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-dark-color);
+}
+
+.accent-logo {
+    color: var(--accent-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.header-address {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color);
 }
