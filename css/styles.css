@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: var(--main-font-family);
+    font-family: var(--main-font-family), var(--secondary-font-family);
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -31,8 +31,8 @@ body {
 
 .button {
     border: none;
-    background: #F5F4FA;
-    border-radius: 4px;
+    background-color: transparent;
+    font-family: inherit;
     cursor: pointer;
     font-family: inherit;
     color: inherit;
@@ -42,51 +42,15 @@ body {
     list-style: none;
 }
 
-.site-logo {
-    font-family: var(--secondary-font-family);
+.section {
+    background-color: var(--main-light-color);
+}
+
+.section-title {
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: var(--main-dark-color);
-}
-
-.accent-logo {
-    color: var(--accent-color);
-}
-
-.nav-item {
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1.67;
     color: var(--secondary-color);
-}
-
-.header-address {
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: var(--main-color);
-}
-
-.hero {
-    background-color: var(--main-background-color);
-    width: 1600px;
-}
-
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    color: var(--main-light-color);
-}
-
-.hero-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    background-color: var(--accent-color);
-    color: var(--main-light-color);
 }
 
 .visually-hidden {
@@ -102,6 +66,70 @@ body {
     margin: -1px;
 }
 
+/* Header */
+.header {
+    background-color: var(--main-light-color);
+}
+
+.site-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-dark-color);
+}
+
+.accent-logo {
+    color: var(--accent-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--secondary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.header-address {
+    font-weight: 500;
+    line-height: 1.14;
+
+    color: var(--main-color);
+}
+
+.header-address:hover,
+.header-address:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--main-background-color);
+    width: 1600px;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--main-light-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    background-color: var(--accent-color);
+    color: var(--main-light-color);
+}
+
+/* Features */
+
 .features-title {
     font-weight: 700;
     line-height: 16px;
@@ -109,15 +137,19 @@ body {
 }
 
 .features-description {
-    line-height: 24px;
+    line-height: 1.14;
 }
+
+/* Working */
 
 .working-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     color: var(--secondary-color);
 }
+
+/* Team */
 
 .team {
     background-color: var(--secondary-background-color);
@@ -125,22 +157,24 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     color: var(--secondary-color);
 }
 
 .team-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: var(--secondary-color);
 }
 
 .team-profession {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: var(--main-color);
 }
+
+/* Footer */
 
 .footer {
     background-color: var(--main-background-color);
@@ -150,16 +184,57 @@ body {
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--main-light-color);
 }
 
 .footer-address {
-    line-height: 24px;
+    line-height: 1.71;
     color: var(--main-light-color);
 }
 
 .address {
-    line-height: 24px;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+/* Button list */
+
+.button-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
+    border-radius: 4px;
+}
+
+.button-list:hover,
+.button-list:focus {
+    background-color: var(--accent-color);
+    color: var(--main-light-color);
+}
+
+/* Work examples  */
+
+.work-examples-item {
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE
+}
+
+.work-examples-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    color: var(--secondary-color);
+}
+
+.work-examples-subtitle {
+font-size: 16px;
+line-height: 1.88;
 }
