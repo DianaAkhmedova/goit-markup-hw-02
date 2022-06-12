@@ -76,6 +76,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--main-dark-color);
 }
 
@@ -85,13 +86,18 @@ body {
 
 .nav-item {
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
+}
+
+.nav-link-current {
+    color: var(--accent-color)
 }
 
 .header-address {
@@ -103,6 +109,7 @@ body {
 
 .header-address:hover,
 .header-address:focus {
+    letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 
@@ -117,6 +124,8 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--main-light-color);
 }
 
@@ -124,6 +133,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
     background-color: var(--accent-color);
     color: var(--main-light-color);
 }
@@ -133,11 +143,14 @@ body {
 .features-title {
     font-weight: 700;
     line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--secondary-color)
 }
 
 .features-description {
     line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 /* Working */
@@ -146,6 +159,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 
@@ -158,6 +172,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 
@@ -165,12 +180,14 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 
 .team-profession {
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--main-color);
 }
 
@@ -185,16 +202,19 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--main-light-color);
 }
 
 .footer-address {
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--main-light-color);
 }
 
 .address {
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -209,6 +229,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     color: var(--secondary-color);
     background-color: var(--secondary-background-color);
     border-radius: 4px;
@@ -231,10 +252,12 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
+    letter-spacing: 0.06em;
     color: var(--secondary-color);
 }
 
 .work-examples-subtitle {
 font-size: 16px;
 line-height: 1.88;
+letter-spacing: 0.03em;
 }
