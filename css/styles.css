@@ -141,8 +141,9 @@ body {
 /* Features */
 
 .features-title {
+    font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color)
