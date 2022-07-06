@@ -156,7 +156,7 @@ body {
 
 /* Working */
 
-.working-title {
+.work-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -226,7 +226,7 @@ body {
 
 /* Button list */
 
-.button-list {
+.button-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -236,20 +236,24 @@ body {
     border-radius: 4px;
 }
 
-.button-list:hover,
-.button-list:focus {
+.button-item:hover,
+.button-item:focus {
     background-color: var(--accent-color);
     color: var(--main-light-color);
 }
 
-/* Work examples  */
+/* Our projects  */
 
-.work-examples-item {
+.our-projects-item {
     background-color: #EEEEEE;
     border: 1px solid #EEEEEE
 }
 
-.work-examples-title {
+.our-projects-list {
+    background-color: var(--main-light-color);
+}
+
+.our-projects-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
@@ -257,7 +261,7 @@ body {
     color: var(--secondary-color);
 }
 
-.work-examples-subtitle {
+.our-projects-subtitle {
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
